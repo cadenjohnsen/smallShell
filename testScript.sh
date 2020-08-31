@@ -36,6 +36,8 @@ echo --------------------
 echo wc in junk out junk2; cat junk2 (10 points for returning correct numbers from wc)
 wc < junk > junk2
 cat junk2
+rm -f junk
+rm -f junk2
 echo
 echo
 echo --------------------
