@@ -242,7 +242,6 @@ int main (int argc, char const *argv[]) {
   while (exitFlag) {  // while exit signal not sent
       printf("  : "); // print out command line
       fflush(stdout); // clear stdout
-
     userInput = readLine(); // call readLine function and store into userInput
     args = argumentSeperator(userInput, &foreground, &background);  // seperate userInput into individual args
     // showArguments(args);  // show arguments from args
